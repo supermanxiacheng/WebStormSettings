@@ -1,0 +1,42 @@
+<templateSet group="RN CSS">
+  <template name="jc:sb" value="justifyContent:'space-between'," description="justifyContent:'space-between'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jc:fs" value="justifyContent:'flex-start'," description="justifyContent:'flex-start'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jc:fe" value="justifyContent:'flex-end'," description="justifyContent:'flex-end'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="jc:sa" value="justifyContent:'space-around'," description="justifyContent:'space-around'," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="jc:center" value="justifyContent:'center'," description="justifyContent:'center'" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="trans" value="transparent" description="transparent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="backgro" value="backgroundColor:'red$END$'," description="backgroundColor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

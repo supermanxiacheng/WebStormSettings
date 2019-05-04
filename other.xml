@@ -1,0 +1,39 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v11.1.0/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v9.5.0/bin/node">
+      <version-cache version="9.5.0" last-modified="1517433903000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/9.5.0/bin/node" />
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v7.10.0/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="InstalledPluginsSearchHistory" value="setting" />
+    <property name="KEYMAP" value="tab&#10;escape" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="space&#10;tab&#10;reformat&#10;tab char&#10;allow place" />
+    <property name="WebStorm.enableDefaultTooltipFixes" value="true" />
+    <property name="WebStorm.enableSmartQuotes" value="true" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="276" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="evlsprt3.183" value="12" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/shengxue" />
+    <property name="file.gist.reindex.count" value="52646" />
+    <property name="find.popup.splitter" value="0.54579437" />
+    <property name="js.rename.search.for.text.occurrences" value="false" />
+    <property name="js.rename.search.in.comments" value="true" />
+    <property name="selected.color.option.type" value="GHERKIN_TABLE_CELL" />
+    <property name="settings.code.style.selected.tab.Dart" value="Tabs and Indents" />
+    <property name="settings.code.style.selected.tab.HTML" value="Tabs and Indents" />
+    <property name="settings.code.style.selected.tab.JavaScript" value="Tabs and Indents" />
+    <property name="settings.code.style.selected.tab.TypeScript" value="Tabs and Indents" />
+    <property name="settings.code.style.selected.tab.XML" value="Tabs and Indents" />
+    <property name="ts.lib.d.ts.version" value="3.2.1" />
+    <property name="vcs.history.diff.splitter.proportion" value="0.49957663" />
+  </component>
+</application>

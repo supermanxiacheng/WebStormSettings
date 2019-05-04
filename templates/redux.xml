@@ -1,0 +1,18 @@
+<templateSet group="redux">
+  <template name="action" value="import * as types from '../types'&#10;import {getFetch,postFetch} from '../../lib/network/request/HttpExtension'&#10;&#10;&#10;export function actionFunctionName(json) {&#10;  return dispatch =&gt; {&#10;    return getFetch('url',json}).then(response =&gt;{&#10;&#10;      if(response === false){&#10;        return dispatch(xxxFailure())&#10;      }&#10;      else {&#10;        return dispatch(xxxSuccess(response.obj))&#10;      }&#10;    })&#10;&#10;  }&#10;}&#10;&#10;function xxxSuccess(obj) {&#10;  return {&#10;    type:types.XXX_SUCCESS,&#10;    obj,&#10;    // length:objs.length,&#10;  }&#10;&#10;}&#10;&#10;function xxxFailure() {&#10;  return {&#10;    type:types.XXX_FAILURE,&#10;  }&#10;&#10;}&#10;" description="redux-action" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="reducer" value="import {createReducer} from '../../lib/createReducer'&#10;import * as types from '../../actions/types'&#10;&#10;let initialState = {&#10;&#10;};&#10;&#10;export const reducerName = createReducer(initialState,{&#10;&#10;  [types.XXX_SUCCESS](state,action){&#10;    let newState = {&#10;      ...state,&#10;      ...action,&#10;    }&#10;&#10;    return newState&#10;  },&#10;&#10;})&#10;" description="redux-reducer" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mapStateToProps" value="function mapStateToProps(state) {&#10;  return {&#10;&#10;  }&#10;}&#10;&#10;export default connect()();" description="mapStateToProps" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+</templateSet>

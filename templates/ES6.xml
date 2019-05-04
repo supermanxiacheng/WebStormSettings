@@ -1,0 +1,7 @@
+<templateSet group="ES6">
+  <template name="arrow" value="($END$)=&gt;{&#10;&#10;}" description="arrow function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
