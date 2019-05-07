@@ -1,5 +1,4 @@
 <code_scheme name="Default" version="173">
-  <option name="AUTODETECT_INDENTS" value="false" />
   <option name="OTHER_INDENT_OPTIONS">
     <value>
       <option name="INDENT_SIZE" value="2" />
@@ -12,6 +11,9 @@
   <JSCodeStyleSettings version="0">
     <option name="INDENT_CHAINED_CALLS" value="false" />
   </JSCodeStyleSettings>
+  <editorconfig>
+    <option name="ENABLED" value="false" />
+  </editorconfig>
   <codeStyleSettings language="JavaScript">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
