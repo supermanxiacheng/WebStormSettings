@@ -66,6 +66,11 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="0" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift alt semicolon" />
+  </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt semicolon" />
     <keyboard-shortcut first-keystroke="meta slash" />
