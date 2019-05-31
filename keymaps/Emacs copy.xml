@@ -155,6 +155,10 @@
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="alt slash" />
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
