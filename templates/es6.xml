@@ -1,0 +1,3 @@
+<templateSet group="es6">
+  <template name="cl" value="dsf" description="cv" toReformat="false" toShortenFQNames="true" />
+</templateSet>
